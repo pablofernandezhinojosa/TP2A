@@ -24,4 +24,3 @@ const personFreez = Object.freeze(person);
 
 personFreez.name = 'Pedro';
 console.log(personFreez);
-
