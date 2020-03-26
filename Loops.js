@@ -20,12 +20,13 @@ do {
 
 // Ejercicio: dada una cadena por ejemplo 'javascriptloops' imprimir todas las vocales 
 // primero y a continuacion las consonantes
-Ejercicio1('javascriptloops');
+Ejercicio1('javascriptlOOps');
+
 
 function Ejercicio1(cadena){
     let i = 0;
     while (i < cadena.length) {
-        switch (cadena[i]) {
+        switch (cadena[i].toLocaleLowerCase()) {
             case 'a':
             case 'e':
             case 'i':
@@ -38,7 +39,7 @@ function Ejercicio1(cadena){
     }
     let j = 0;
     while (j < cadena.length) {
-        switch (cadena[j]) {
+        switch (cadena[j].toLocaleLowerCase()) {
             case 'a':
             case 'e':
             case 'i':
